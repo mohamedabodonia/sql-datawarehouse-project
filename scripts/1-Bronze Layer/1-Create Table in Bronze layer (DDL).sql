@@ -3,12 +3,13 @@
 
 OBJECT_ID('bronze.crm_cust_info', 'U') checks if the table bronze.crm_cust_info exists.
 'U' specifies that we are checking for a User Table (not a view, procedure, etc.).
-
 If the result is NOT NULL, that means the table exists.
-2️* DROP TABLE bronze.crm_cust_info;
+
+2* DROP TABLE bronze.crm_cust_info;
 If the table exists, it will be deleted from the database.
 This prevents issues like trying to create a table that already exists.
-3️* GO (Optional Statement)
+
+3* GO (Optional Statement)
 GO is a batch separator in SQL Server (not standard SQL).
 It ensures the previous statements are executed before proceeding with new commands.
 */
