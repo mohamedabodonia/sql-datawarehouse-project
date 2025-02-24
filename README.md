@@ -1,5 +1,5 @@
 # Data Warehouse Project (Medallion Architecture)
-Building Datawarehouse sing SQL server, including ETL process, data modeling and data analytics.
+
 
 
 # 📌 Project Overview
