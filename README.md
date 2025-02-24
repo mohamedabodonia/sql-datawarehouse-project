@@ -10,6 +10,9 @@ The goal is to process CRM and ERP data efficiently using ETL processes, ensurin
 # 🏗️ DATA Architecture
 
 The project follows the Medallion Architecture:
+<img src="https://github.com/mohamedabodonia/sql-datawarehouse-project/blob/main/docs/data_architecture.png?raw=true">
+
+
 
 1-Bronze Layer (Raw Data Ingestion)
 
@@ -27,3 +30,9 @@ Quality checks: Null value detection, duplicate handling, and standardization
 Structure: Dimension Tables & Fact Tables  
 Actions: Aggregations, summarization, and indexing for reporting  
 Ensures referential integrity between Fact and Dimension tables  
+
+# 🛠️ Tech Tools
+
+SQL Server for database management.  
+ETL processes.  
+Stored Procedures & Scripting for automation.  
