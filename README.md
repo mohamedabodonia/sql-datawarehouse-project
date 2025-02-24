@@ -61,15 +61,15 @@ Verify consistency of calculated fields.
 
 ✅ Data Quality Checks
 
-Bronze Layer: only load the data (Row Data).
-Silver Layer:  Detecting null values, duplicate records Cleaning and transforming data before loading into Gold tables.
-Gold Layer: Ensuring uniqueness in Dimension Tables and referential integrity between Fact & Dimension Tables.
+Bronze Layer: only load the data (Row Data).  
+Silver Layer:  Detecting null values, duplicate records Cleaning and transforming data before loading into Gold tables.  
+Gold Layer: Ensuring uniqueness in Dimension Tables and referential integrity between Fact & Dimension Tables.  
 
-✅ SQL Scripts Used
+✅ SQL Scripts Used  
 
-Data Loading (BULK INSERT for Bronze Layer)
-Transformations & Cleaning (Stored Procedures in Silver Layer)
-Aggregations & Indexing (Optimization in Gold Layer)
+Data Loading (BULK INSERT for Bronze Layer)  
+Transformations & Cleaning (Stored Procedures in Silver Layer)  
+Aggregations & Indexing (Optimization in Gold Layer)  
 
 # 🛠️ Tech Tools
 
