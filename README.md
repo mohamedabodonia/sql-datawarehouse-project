@@ -11,24 +11,19 @@ The goal is to process CRM and ERP data efficiently using ETL processes, ensurin
 
 The project follows the Medallion Architecture:
 
-Bronze Layer (Raw Data Ingestion)
+1-Bronze Layer (Raw Data Ingestion)
 
 Source: CRM & ERP CSV Files
-
 Loading method: BULK INSERT
-
 Actions: Raw data storage without modifications
 
-Silver Layer (Data Cleaning & Transformation)
+2-Silver Layer (Data Cleaning & Transformation)
 
 Actions: Data cleaning, deduplication, enrichment, derived columns, type casting
-
 Quality checks: Null value detection, duplicate handling, and standardization
 
-Gold Layer (Data Aggregation & Reporting)
+3-Gold Layer (Data Aggregation & Reporting)
 
 Structure: Dimension Tables & Fact Tables
-
 Actions: Aggregations, summarization, and indexing for reporting
-
 Ensures referential integrity between Fact and Dimension tables
