@@ -7,7 +7,7 @@
 This project implements a Data Warehouse using SQL Server following the Medallion Architecture (Bronze, Silver, Gold layers).  
 The goal is to process CRM and ERP data efficiently using ETL processes, ensuring clean, structured, and optimized data for reporting and analysis.
 
-# 🏗️ DATA Architecture
+# 🏗️ Data Architecture
 
 The project follows the Medallion Architecture:
 <img src="https://github.com/mohamedabodonia/sql-datawarehouse-project/blob/main/docs/data_architecture.png?raw=true">
